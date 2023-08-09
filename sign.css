@@ -1,0 +1,135 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.section .section-head{
+    color: #22343d;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+.section h3.section-head:after{
+    background: #02897A;
+    content: " ";
+    display: block;
+    width: 120px;
+    height: 3px;
+    margin: 20px auto;
+}
+
+#menu-bar{
+    overflow-x: hidden;
+}
+#menu{
+    list-style: none;
+    margin: 0;
+    padding: 0;   
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color:#22343d;
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+}
+#menu a:hover{
+     color: #02897A;
+     font-weight: bold;
+}
+#bt1{
+    color: #02897A;
+    border: #02897A 1px solid;
+    font-weight: bold;
+}
+#bt2{
+    color: white;
+    font-weight: bold;
+    background: #02897A;
+}
+#bt1:hover{
+    background: #02897A;
+    color: #fff;
+    border:1px solid #fff;
+}
+#bt2:hover{
+   background: #fff;
+   color: #02897A;
+   border: #02897A 1px solid;
+}
+
+
+
+#sform{
+    background: #E5E5E5;
+    font-family: poppins;
+    border-radius: 10px;
+}
+.fbbtn{
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    background:#1e90ff;
+    border-radius: 6px 6px 6px 6px ;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px 2px;
+    font-size: 20px;
+    border: 1px gray solid;
+}
+.fb{
+    text-decoration: none;
+    color: white;
+}
+.glbtn{
+    width: 250px;
+    height: 40px;
+    font-weight: bold;
+    color: black;
+    background:#ff6348;
+    border-radius: 6px 6px 6px 6px ;
+    cursor: pointer;
+    font-size:20px;
+    padding: 2px 2px;
+    border: 1px gray solid;
+}
+.gl{
+    text-decoration: none;
+    color: white;
+}
+#name{
+    border: 1px solid #02897A;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    box-shadow: none;
+}
+#sign{
+    text-align: center;
+    align-items: center;
+    background: #02897a;
+    font-size: 30px; 
+    padding: 3px 3px;
+     border-radius: 10px; 
+     color:#fff;
+     font-size: 25px;
+}
+#sbtn{
+    width: 100px;
+    height: 40px;
+    background: #02897A;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: none;
+}
+#sbtn:hover{
+    background: transparent;
+    color: #000;
+    font-weight: 600;
+    border: 1px solid #02897A;
+}
+
